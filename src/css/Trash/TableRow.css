@@ -1,0 +1,333 @@
+tr{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-size: 13px;
+    line-height: 1.42857143;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0,0,0,0.87);
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 48px;
+    width : 100%;
+    background-color: white;
+    border-bottom: 10px solid grey;
+}
+
+td{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.42857143;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    text-align: left;
+    color: rgba(0,0,0,.87);
+    font-size: 13px;
+    box-sizing: border-box;
+    font-weight: bold;
+    vertical-align: middle;
+    
+}
+
+td, th {
+    padding:0px 56px 0px 0px;
+}
+
+small{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.42857143;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    text-align: left;
+    color: rgba(0,0,0,.87);
+    box-sizing: border-box;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.proposal-id{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.42857143;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    color: #0075bf !important;
+    box-sizing: border-box;
+}
+
+.proposal-subject{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.42857143;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    text-align: left;
+    color: rgba(0,0,0,.87);
+    box-sizing: border-box;
+    font-size: 11px;
+    vertical-align: middle;
+}
+
+.customer-span{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.42857143;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    text-align: left;
+    color: rgba(0,0,0,.87);
+    font-size: 13px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.date-span{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #FDFDFD;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #404040;
+    border: 1px solid #d9d9d9;
+    margin: 0 2px;
+}
+
+.declined{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    padding: 3px 7px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 5px;
+    background: #f52f24;
+    color: white;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.accepted{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    padding: 3px 7px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 5px;
+    background: #26c281;
+    color: white;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.revised{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    padding: 3px 7px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 5px;
+    background: #ffffff;
+    color: #ffbc00;
+    border: 1px dashed #ffbc00;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.draft{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    padding: 3px 7px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 5px;
+    background: #26c281;
+    color: white;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.sent{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    padding: 3px 7px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 5px;
+    background: #ffffff;
+    color: #919faf;
+    border: 1px dashed #919faf;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.open{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 2px;
+    padding: 3px 7px;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 5px;
+    background: #ffffff;
+    color: #26c281;
+    border: 1px dashed #26c281;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.amount-strong{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.42857143;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    text-align: left;
+    color: rgba(0,0,0,.87);
+    font-size: 13px;
+    box-sizing: border-box;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.user-avatar{
+    background-color: white;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.42857143;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    border-collapse: collapse;
+    border-spacing: 0;
+    cursor: pointer;
+    text-align: left;
+    color: rgba(0,0,0,.87);
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 0;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+tr strong , tr span, tr div{
+    background-color: white;
+}

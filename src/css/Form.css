@@ -1,0 +1,142 @@
+.create-bill {
+    /* max-width: 1280px; */
+    /* padding: 2rem; */
+    text-align: center;
+}
+
+
+/*//!  global class of   */
+
+/* //- label */
+/* //- input */
+/* //- root */
+/* //- anchor */
+/* //- button */
+/* //- body */
+/* //- h1 */
+
+
+.create-bill label {
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+/* width: 400px; */
+.create-bill input[type="text"],
+.create-bill input[type="email"],
+.create-bill input[type="number"],
+.create-bill input[type="date"] {
+    display: block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    text-align: left;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* color: rgba(255, 255, 255, 0.87); */
+/* :root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+} */
+.create-bill {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+.create-bill a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+.create-bill a:hover {
+    color: #535bf2;
+}
+
+/* display: flex; */
+/* body {
+    margin: 0;
+    min-width: 320px;
+    min-height: 100vh;
+} */
+
+.create-bill {
+    margin: 0;
+    /* min-width: 320px; */
+    min-height: 100vh;
+}
+
+.create-bill h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+/* padding: 0.6em 1.2em; */
+.create-bill button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+.create-bill button:hover {
+    border-color: #646cff;
+}
+
+.create-bill button:focus,
+.create-bill button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* @media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    a:hover {
+        color: #747bff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+} */

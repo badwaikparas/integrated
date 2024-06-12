@@ -1,0 +1,40 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.icons {
+  display: flex;
+}
+
+.icon-container {
+  width: 52px;
+  height: 40px;
+  padding: 8px;
+  margin-left: 6px;
+  margin-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+}
+
+.heading {
+  display: flex;
+  justify-content: left;
+  align-items: first baseline;
+}
+
+.toolbar-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.Toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */

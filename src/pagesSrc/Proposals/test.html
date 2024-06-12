@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposals Table</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .table-container {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .table-header {
+            background-color: #f9f9f9;
+            padding: 10px 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .table-header h2 {
+            margin: 0;
+            font-size: 18px;
+        }
+        .table-header .icons {
+            font-size: 18px;
+        }
+        .table-header .icons i {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .table-content {
+            padding: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        tbody{
+            margin : 200px;
+        }
+
+        th {
+            background-color: #f1f1f1;
+        }
+        .status-open {
+            display: inline-block;
+            padding: 5px 10px;
+            border: 2px dashed #4caf50;
+            color: #4caf50;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <div class="table-header">
+            <h2>Proposals <span>(1)</span></h2>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-chart-bar"></i>
+                <i class="fas fa-filter"></i>
+                <i class="fas fa-plus-circle"></i>
+            </div>
+        </div>
+        <div class="table-content">
+            <p>Organize your proposals</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Proposal</th>
+                        <th>Customer / Lead</th>
+                        <th>Date</th>
+                        <th>Open Till</th>
+                        <th>Status</th>
+                        <th>Amount</th>
+                        <th>Staff</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#">PRO-15</a><br>cc</td>
+                        <td></td>
+                        <td>23.05.2024</td>
+                        <td>30.05.2024</td>
+                        <td><span class="status-open">OPEN</span></td>
+                        <td>₹10,000.00</td>
+                        <td><img src="staff-image.png" alt="Staff" style="width: 40px; height: 40px; border-radius: 50%;"></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">PRO-15</a><br>cc</td>
+                        <td></td>
+                        <td>23.05.2024</td>
+                        <td>30.05.2024</td>
+                        <td><span class="status-open">OPEN</span></td>
+                        <td>₹10,000.00</td>
+                        <td><img src="staff-image.png" alt="Staff" style="width: 40px; height: 40px; border-radius: 50%;"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

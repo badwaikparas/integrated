@@ -1,0 +1,73 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.label {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: .005em;
+    font-family: inherit;
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    line-height: 1;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #FDFDFD;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: 700;
+    color: #404040;
+    border: 1px solid #d9d9d9;
+    margin: 0 2px;
+}
+
+.button {
+    padding: 8px;
+    margin: 0 6px 0 6px;
+    background-color: transparent;
+    border: none;
+}
+
+.Tile {
+    height: 150px;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #404040 1px solid;
+}
+
+.tile-head-small {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-align: center !important;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.tile-content-large {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    text-align: center !important;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.1;
+    color: inherit;
+    font-size: 23px;
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    box-sizing: border-box;
+}

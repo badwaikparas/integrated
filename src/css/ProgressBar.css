@@ -1,0 +1,23 @@
+.wrapper {
+    /* border: 1px solid blue; */
+    height: 1px;
+}
+
+.container {
+    background-color: #efefef;
+    height: 5px;
+    border-radius: 2.5px;
+}
+
+.barCompleted {
+    background-color: #22c39e;
+    width: 80%;
+    height: 5px;
+    border-radius: 2.5px;
+}
+
+.label {
+    font-size: 20px;
+    color: green;
+    display: none;
+}

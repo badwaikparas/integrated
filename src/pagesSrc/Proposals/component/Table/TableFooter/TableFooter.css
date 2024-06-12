@@ -1,0 +1,56 @@
+.md-text mg-binding{-webkit-tap-highlight-color: transparent;
+-webkit-text-size-adjust: 100%;
+line-height: 1.42857143;
+font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight: 300;
+-webkit-font-smoothing: antialiased;
+font-size: 12px;
+color: rgba(0,0,0,.54);
+white-space: nowrap;
+box-sizing: border-box;
+display: inherit;
+height: inherit;
+transform: inherit;
+}
+
+
+.md-icon-button md-button md-ink-ripple{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    -webkit-appearance: button;
+    letter-spacing: .01em;
+    display: inline-block;
+    position: relative;
+    min-height: 36px;
+    vertical-align: middle;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    user-select: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: inherit;
+    font-variant: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    overflow: hidden;
+    transition: box-shadow .4s cubic-bezier(.25, .8, .25, 1), background-color .4s cubic-bezier(.25, .8, .25, 1);
+    color: rgba(0,0,0,0.38);
+    cursor: default;
+    background-color: transparent;
+    height: 40px;
+    min-width: 0;
+    line-height: 24px;
+    padding: 8px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0;
+}

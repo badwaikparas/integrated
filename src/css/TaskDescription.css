@@ -1,0 +1,219 @@
+/* General container styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+}
+
+/* Left side styles */
+.left-side {
+    width: 75%;
+    margin: 18px;
+}
+
+.left-side>div {
+    margin-bottom: 20px;
+}
+
+/* Task title */
+.task-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Description section */
+.description {
+    background-color: #fff;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 10px;
+    height: 80px;
+    border: 1px black solid;
+}
+
+.description b {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.description .small {
+    font-size: 14px;
+    color: grey;
+}
+
+/* Subtasks section */
+.subtasks {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0 0 0 10px;
+    border: 1px solid black;
+}
+
+.subtasks div {
+    margin-bottom: 5px;
+}
+
+.subtasks input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.subtask-head {
+    font-size: 27px;
+}
+
+.subtasks-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtask-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.subtask-item div {
+    flex-grow: 1;
+    border-bottom: #262626 1px solid;
+}
+
+.subtask-item button {
+    background: none;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Right side styles */
+.right-side {
+    width: 35%;
+    background: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.right-side-title {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.42857143;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #262626 !important;
+    font-size: 20px;
+    letter-spacing: .005em;
+    font-weight: 400;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 20px;
+    border-bottom: 1px black solid;
+}
+
+/* Information grid */
+.information-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 10px; */
+}
+
+.information-grid>div {
+    margin-bottom: 10px;
+    border-bottom: 1px black solid;
+    padding: 10px 0 10px 0
+}
+
+.information-grid b {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.info-detail {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    font-size: 13px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 20px;
+    list-style: none;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+/* h5,
+strong {
+    margin: 0 0 10px 0;
+    line-height: 0;
+} */
+
+.button {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+/* Files section */
+.files {
+    margin-top: 20px;
+}
+
+.files-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.files-title img {
+    width: 20px;
+    height: 20px;
+}
+
+.files img {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.right-side-title>button {
+    border-radius: 50%;
+}
+
+
+/* Dropdown menu styles */
+.dropdown-menu {
+
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    right: calc();
+}
+
+.dropdown-menu div {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+    background-color: #f1f1f1;
+}
