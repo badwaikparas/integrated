@@ -6,7 +6,7 @@ const JWT_KEY = process.env.JWT_SECRET_KEY
 const register = async function (req, res) {
     try {
         const { name, username, email, password, confirmPassword, isAdmin } = req.body;
-        if (!name || !username || !password || !confirmPassword || !isAdmin) {
+        if (!name || !username || !password || !confirmPassword) {
             console.log("All fields are required")
             return res.status(400).send("All fields are required");
         }
@@ -19,7 +19,7 @@ const register = async function (req, res) {
         const userExist = await User.findOne({ username: username })
         if (userExist) {
             console.log("User already exists the same username")
-            return res.send("User already exists the same username")
+            return res.json("User already exists the same username")
         }
 
         // encrypt password 
