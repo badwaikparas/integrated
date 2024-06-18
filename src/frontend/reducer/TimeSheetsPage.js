@@ -1,4 +1,4 @@
-import TableSection2 from '../frontend/components/TimesheetsComponents/TableSection2';
+import TableSection2 from '../components/TimesheetsComponents/TableSection2';
 import TaskDescription from '../pages/TaskDescription';
 
 function TimeSheetsPage() {
