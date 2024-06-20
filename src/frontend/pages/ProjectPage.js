@@ -3,7 +3,7 @@ import '../css/Project.css'
 import ProjectHeader from '../components/ProjectHeader'
 import Tiles from '../reducer/Tiles'
 import TabsSection from '../components/TabsSection'
-// import EmailTemplates from '../components/ProjectTabs/EmailTemplates'
+import EmailTemplates from '../components/ProjectTabs/EmailTemplates'
 
 function ProjectPage() {
     return (
@@ -12,7 +12,7 @@ function ProjectPage() {
                 <ProjectHeader />
                 <Tiles />
                 <TabsSection />
-                {/* <EmailTemplates /> */}
+                <EmailTemplates />
             </div>
             <div>
 

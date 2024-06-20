@@ -1,0 +1,94 @@
+.email-templates {
+    padding: 50px;
+    margin-left: 50px;
+  }
+  
+  .email-templates h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .categories-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .categories {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    width: 600px; /* Adjust width to show 4 categories */
+  }
+  
+  .categories::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+  }
+  
+  .categories button {
+    flex: 0 0 150px; /* Each button will take up a fixed width */
+    margin-right: 5px;
+    padding: 10px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .categories button.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .scroll-button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .templates {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .template-card {
+    transition: background-color 0.3s, color 0.3s;
+    background:linear-gradient(to bottom right, #f9f9f9, #e6e6e6);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .template-card:hover {
+    background: #6d6c6c;
+    color: orange;
+  }
+  
+  .template {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .template input {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .status {
+    margin-left: 10px;
+  }
+  
+  .status.inactive {
+    color: red;
+  }
+
+  .status.active {
+    color: green;
+  }
+  
+  /* .template-card:hover .status {
+    color: green;
+  }
+   */
